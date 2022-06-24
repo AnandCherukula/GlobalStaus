@@ -18,7 +18,8 @@ ReactDOM.render(
     <PersistGate loading={null} persistor={persistor}>
       <HashRouter >
         <Switch>
-          <Route exact path='/' component={Login} />
+          
+          <Route exact path='/login' component={Login} />
           <Route exact path='/register' component={SignUp} />
           
          <Full />

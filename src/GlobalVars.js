@@ -1,7 +1,7 @@
-// http://localhost:44396/
-export const PE_API_URL = NODE_ENV === 'development' ? 'http://localhost:8080/' :
-    NODE_ENV === 'testing' ? 'http://10.22.1.121/pxptestapi/' :
-    NODE_ENV === 'production' ? 'http://paisaexpress.com/paisaexpressapi/' : '';
+
+export const BASEAPI_URL = NODE_ENV === 'development' ? 'http://localhost:9090/' :
+    NODE_ENV === 'testing' ? '' :
+    NODE_ENV === 'production' ? '' : '';
 
 // Input Fileds Lable Style 
 export const Labelstyle = {
