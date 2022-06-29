@@ -89,24 +89,24 @@ class Sidebar extends Component {
               <li className="sidebar-dropdown active">
                 <a href="#">
                   <i className="fa fa-tachometer"></i>
-                  <span>Dashboard</span>
+                  <span>News</span>
                   <span className="badge badge-pill badge-warning">New</span>
                 </a>
                 <div className="sidebar-submenu">
                   <ul>
                     <li>
                       <a href="#">
-                        Dashboard 1{" "}
+                        Sports
                         <span className="badge badge-pill badge-success">
                           Pro
                         </span>
                       </a>
                     </li>
                     <li>
-                      <a href="#">Dashboard 2</a>
+                      <a href="#">Politics</a>
                     </li>
                     <li>
-                      <a href="#">Dashboard 3</a>
+                      <a href="#">India</a>
                     </li>
                   </ul>
                 </div>
